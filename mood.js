@@ -27,4 +27,4 @@ function closeSeachPane() {
   window.location.hash = "";
 }
 
-document.querySelector("#resuts a").addEventListener("click", closeSeachPane);
+document.querySelector("#exitButton").addEventListener("click", closeSeachPane);
